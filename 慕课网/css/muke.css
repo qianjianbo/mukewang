@@ -1,0 +1,1208 @@
+html,body{
+				width: 100%;
+				height: 100%;
+				padding: 0;
+				margin: 0;
+			}
+			.bigdiv{
+				width:100%;
+				height: 100%;
+			}
+			header{
+				width: 100%;
+				height: 60px;
+			}
+			.logo {
+				width: 120px;
+				height: 60px;
+				background: url(../images/logo.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				position: relative;
+				left: 15px;
+				top: 15px;
+				cursor: pointer;
+			}
+			.nav{
+		
+				height: 60px;
+				margin:0 auto;
+				position: relative;
+			}
+			a{
+				text-decoration: none;
+				color: black;
+			}
+			
+			ul{
+				list-style: none;
+				display: block;
+			}
+			li{
+				list-style: none;
+			}
+			.nav-item li{
+				transform: .3s;
+				float: left;
+				position: relative;
+				left: 115px;
+				top: -75px;
+				padding: 20px;
+				font-size: 17px;
+				cursor: pointer;
+				z-index: 2;
+			}
+			.nav-item li a:hover{
+				color: red;
+
+			}
+			
+			.imgg{
+				position: absolute;
+				z-index: -1;
+				opacity: 0;
+				transition: .5s;
+			}
+			.im{
+				position: absolute;
+				z-index: -1;
+
+			}
+			
+
+			.qianduan{
+				width:732px;
+				height: 460px;
+				position: absolute;
+				left: 247px;
+				top:0px;
+				display: none;
+				background: url(../images/bg1.png);
+			}
+			.subbox{
+				position: absolute;
+				width: 652px;
+   				 margin-left: 40px;
+			}
+			.box-title{
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				    color:red;
+				    font-size: 16px;
+				    line-height: 16px;
+				    z-index: 333;
+				    margin-top:28px;
+				    font-weight: 700;
+				    margin-bottom: 19px;
+			}
+			.jichu{
+				width: 652px;
+				height: 50px;
+				position: absolute;
+				top: 50px;
+				line-height: 50px;
+				
+
+			}
+			.jichu a{
+				margin: 0 15px!important
+			}
+			.jingjie{
+				width: 652px;
+				height: 50px;
+				border:1px solid red;
+				position: absolute;
+				top: 50px;
+				line-height: 50px;
+			}
+			.tuijian{
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				    color:red;
+				    font-size: 16px;
+				    line-height: 16px;
+				    z-index: 333;
+				    margin-top:28px;
+				    font-weight: 700;
+				    margin-bottom: 19px;
+			}
+			.tuijian-1{
+				margin: 0 15px!important;
+				position: relative;
+				top:40px;
+			}
+
+
+			.yidong{
+				width: 732px;
+				height: 460px;
+				position: absolute;
+				left: 247px;
+				top: 0px;
+				display: none;
+			}
+			.box-1{
+				position: absolute;
+				top: 0;
+			}
+			.shuju{
+				width: 732px;
+				height: 460px;
+				position: absolute;
+				left: 247px;
+				top: 0px;
+				display: none;
+			}
+			.box-2{
+				position: absolute;
+				top: 0;
+			}
+			.houduan{
+				width: 732px;
+				height: 460px;
+				position: absolute;
+				left: 247px;
+				top: 0px;
+				display: none;
+			}
+			.box-3{
+				position: absolute;
+				top: 0;
+			}
+			.yun{
+				width: 732px;
+				height: 460px;
+				position: absolute;
+				left: 247px;
+				top: 0px;
+				display: none;
+			}
+			.box-4{
+				position: absolute;
+				top: 0;
+			}
+			.yunwei{
+				width: 732px;
+				height: 460px;
+				position: absolute;
+				left: 247px;
+				top:0px;
+				display: none;
+			}
+			.box-5{
+				position: absolute;
+				top: 0;
+			}
+			.shijue{
+				width: 732px;
+				height: 460px;
+				position: absolute;
+				left: 247px;
+				top: 0px;
+				display: none;
+			}
+			.box-6{
+				position: absolute;
+				top: 0;
+			}
+
+
+			.mian{
+				width: 450px;
+				height: 50px;
+				position: absolute;
+				right: 10px;
+				top: 20px;
+			}
+			.nav-item2{
+				width: 300px;
+				display: block;
+				position: relative;
+			}
+			.nav-item-ipt{
+				padding: 5px 10px;
+				width: 220px;
+				height: 30px;
+				line-height: 38px;
+				color: #71777d;
+				margin: 0px;
+				border:none;
+				outline: none;
+				position: relative;
+				top: -10px;
+				border-bottom: 1px solid gray;
+				z-index: 2;
+
+			}
+			.nav-item-tp{
+				width: 17px;
+				height: 17px;
+				position: absolute;
+				left: 215px;
+				top: 0px;
+				z-index: 2;
+				background: url(../images/shousuo.png);
+
+			}
+			.nav-item-tp:hover{
+				width: 17px;
+				height: 17px;
+				background: url(../images/shousuo2.png);
+			}
+			.nav-tiem3{
+				width: 180px;
+				height: 50px;
+				position: relative;
+				float: right;
+				top: -55px;
+			}
+			.nav-tiem3-ul{
+				position: absolute;
+				left: -55px;
+			}
+			.nav-tiem3-ul li{
+				
+				float: left;
+				padding: 0 10px;
+			}
+			.nav-tiem3-ul .shouji{
+				padding: 0;
+				width: 12px;
+				height: 18px;
+				position: relative;
+				top: -2px;
+				left: 10px;
+				background: url(../images/shouji.png);
+				z-index: 2;
+			}
+			.zhuce{
+				width: 40px;
+				position: absolute;
+				left: 150px;
+				font-size: 18px;
+				top: -2px;
+				z-index: 2;
+			}
+			.zhuce a:hover{
+				color: red;
+			}
+			.denglu{
+				width: 40px;
+				position: absolute;
+				left: 80px;
+				font-size: 18px;
+				top: -2px;
+				z-index: 2;
+			}
+			.denglu a:hover{
+				color: red;
+			}
+			.shouji:hover{
+				width: 12px;
+				height: 18px;
+				background: url(../images/shouji2.png);
+			}
+			.app{
+				display: none;
+			    position: absolute;
+			    top: 60px;
+			    left: -57px;
+			    width: 140px;
+			    height: 166px;
+			    background: #fff;
+			    padding: 16px 20px 18px 20px;
+			    text-align: center;
+			    z-index: 2;
+			}
+			.app-1{
+				width: 140px;
+				margin: 0px;
+			    color: #14191e;
+			    font-size: 14px;
+			    height: 15px;
+			}
+			.app-2{
+			    margin: 0px;
+			    color: #787d82;
+			    font-size: 12px;
+			    height: 30px;
+			    margin-top: 10px;
+			}
+			.banner-slide{
+				width: 1200px;
+				position: absolute;
+				margin: auto;
+				left: 0;
+				right: 0;
+				top:0;
+				bottom: 0;
+			}
+			.bannedr-top{
+				width: 1200px;
+				height: 460px;
+				position: relative;
+				top: 80px;
+			}
+			.bannedr-top ul li{
+				position: absolute;
+				top: -34px;
+				left: 0px;
+			}
+			.bannedr-top-left{
+				width: 244px;
+				height: 460px;
+				position: relative;
+				float: left;
+				top: -34px;
+				background-color: rgba(7,17,27,.5);
+				z-index: 1;
+			}
+			.data-a{
+				height: 64px;
+				width: 100%;
+			}
+			.data-a a{
+				font-size: 20px;
+				line-height: 64px;
+				position: absolute;
+				left: 30px;
+				font-size: 16px;
+				color: white;
+
+			}
+			.icon-right{
+				position: relative;
+				float: right;
+				right: 60px;
+				line-height: 64px;
+				color: rgba(255,255,255,.5);
+			}
+			.icon-right3{
+				position: relative;
+				float: right;
+				left: -60px;
+				line-height: 64px;
+				color: rgba(255,255,255,.5);
+			}
+			.data-b{
+				height: 64px;
+				width: 100%;
+			}
+			.data-b a{
+				font-size: 20px;
+				line-height: 64px;
+				position: absolute;
+				left: 30px;
+				font-size: 16px;
+				color: white;
+			}
+			.data-c{
+				height: 64px;
+				width: 100%;
+				position: relative;
+				top: 0px;
+			}
+			.data-c a{
+				font-size: 20px;
+				line-height: 64px;
+				position: absolute;
+				left: 30px;
+				font-size: 16px;
+				color: white;
+			}
+			.data-d{
+				height: 64px;
+				width: 100%;
+				position: relative;
+				top: 0px;
+			}
+			.data-d a{
+				font-size: 20px;
+				line-height: 64px;
+				position: absolute;
+				left: 30px;
+				font-size: 16px;
+				color: white;
+			}
+			.data-e{
+				height: 64px;
+				width:100%;
+				position: relative;
+				top: 0px;
+			}
+			.data-e a{
+				font-size: 20px;
+				line-height: 64px;
+				position: absolute;
+				left: 30px;
+				font-size: 16px;
+				color: white;
+			}
+			.data-f{
+				height: 64px;
+				width: 100%;
+				position: relative;
+				top: 0px;
+			}
+			.data-f a{
+				font-size: 20px;
+				line-height: 64px;
+				position: absolute;
+				left: 30px;
+				font-size: 16px;
+				color: white;
+			}
+			.data-g{
+				height: 64px;
+				width: 100%;
+				position: relative;
+				top:0px;
+			}
+			.data-g a{
+				font-size: 20px;
+				line-height: 64px;
+				position: absolute;
+				left: 30px;
+				font-size: 16px;
+				color: white;
+			}
+			.banner-dots1{
+				width: 40px;
+				height: 80px;
+				position: absolute;
+				left: 245px;
+				top: 180px;
+				background-color: black;
+				color: white;
+				font-size: 45px;
+				line-height: 80px;
+				text-align: center;
+				z-index: -1;
+				cursor: pointer;
+
+			}
+			.banner-dots2{
+				width: 40px;
+				height: 80px;
+				position: absolute;
+				top: 180px;
+				left: 1160px;
+				cursor: pointer;
+				background-color: black;
+				color: white;
+				font-size: 45px;
+				line-height: 80px;
+				text-align: center;
+
+
+			}
+			.banner-dots3{
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				background-color: gray;
+				z-index: 1;
+				position: absolute;
+				left: 1130px;
+				margin-top: -30px;
+				opacity: .5;
+				cursor: pointer;
+			}
+			.banner-dots4{
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				background-color: gray;
+				z-index: 1;
+				position: absolute;
+				left: 1145px;
+				margin-top: -30px;
+				cursor: pointer;
+				opacity: .5;
+			}
+			.recomend{
+				width: 1200px;
+				height: 80px;
+				position: relative;
+				top: 450px;
+				left: 0;
+				margin: 0 auto;
+			}
+			.recomend a span{
+				position: relative;
+				font-size: 16px;
+				top: 40px;
+
+			}
+			.recomend a p{
+				position: absolute;
+				left: 1150px;
+				top: 25px;
+			}
+			.contentwrap{
+				width: 1200px;
+				height: 172px;
+				position: relative;
+				top: 45px;
+				margin: 0 auto;
+			}
+			.yy{
+				position: relative;
+				top: 450px;
+			}
+			.yy2{
+				position: relative;
+				top: 450px;
+			}
+			.re{
+				position: relative;
+				top: 450px;
+				left: 0px;
+			}
+			.re a p{
+				position: relative;
+				left: 1150px;
+				top: 10px;
+			}
+			.moco-course-wrap{
+				width: 224px;
+				height: 172px;
+				margin: 0 !important;
+				margin-right: 17px !important;
+				float: left;
+				/*overflow: hidden;*/
+				box-shadow:0 5px 10px rgba(0,0,0,0.1); 
+			}
+			.moco-course-wrap:hover .moco-course-intro{
+				top:-135px;
+				opacity: .9;
+
+			}
+
+			.moco-course-wrap2{
+				width: 224px;
+				height: 172px;
+				margin: 0 !important;
+				margin-right:0;
+				float: left;
+				box-shadow:0 5px 10px rgba(0,0,0,0.1); 
+			}
+			.moco-course-wrap2:hover .moco-course-intro {
+				top: -135px;
+				opacity: 0.9;
+			}
+
+			.moco-coures-box{
+				width: 224px;
+				height: 172px;
+
+			}
+			.moco-coures-box img{
+				width: 100%;
+				height:100px;
+			}
+			.moco-course-intro{
+				width: 100%;
+				height: 77px;
+				position: relative;
+				top: -90px;
+				margin-left: 0px;
+				text-align: center;
+				background-color: white;
+				transition: .6s;
+
+			}
+			.python{
+				position: relative;
+				left: 0px;
+				color: #71777d;
+				
+			}
+			.moco{
+				width: 100%;
+				height: 45px;
+				background-color: white;
+				position: relative;
+				top:25px;
+				z-index: 2
+			}
+			.moco-course-intro p{
+				font-size: 14px;
+				position: relative;
+				top: 5px;
+
+			}
+			.moco-course-red{
+				color: red;
+				font-size: 12px;
+				top: 50px;
+				z-index: 1;
+				height: 30px;
+				float: left;
+				margin-top: 20px;
+
+
+			}
+			.moco-course-red p{
+				width: 80px;
+				color: red;
+				margin: 0;
+				position: relative;
+				left: 20px;
+				
+				
+			}
+			.moco-course-r{
+				color: #71777d;
+				width: 80px;
+				float: right;
+				font-size: 14px;
+				z-index: 1;
+				margin-top: 20px;
+			}
+			.to p{
+				color: #71777d;
+				font-size: 14px;
+				width: 120px;
+
+			}
+			.center{
+				width: 100%;
+				height: 2750px;
+				background-color: #f3f5f7;
+				position: absolute;
+				top: 1100px;
+			}
+			.banner-slide{
+				width: 1200px;
+				position: absolute;
+				margin: auto;
+				left: 0;
+				right: 0;
+				top:0;
+				bottom: 0;
+			}
+			.centerwrap{
+				width: 1200px;
+				height: 412px;
+				/*border:1px solid;*/
+				float: left;
+			}
+			.web{
+				width: 224px;
+				height: 364px;
+				background: url(../images/web.png);
+				position: relative;
+				left: 0px;
+				margin-right: 20px;
+			}
+			.title{
+				font-size: 32px;
+				line-height: 36px;
+				color: white;
+				font-weight: 700;
+				position: relative;
+				left: 20px;
+				top: 25px;
+			}
+			.zhiye{
+				width: 204px;
+				height: 17px;
+				font-size: 16px;
+				line-height: 16px;
+				color: white;
+				margin: 34px 0 0 20px;
+				display: block;
+				position: relative;
+				top: 25px;
+			}
+			.zhiye i{
+				position: relative;
+				left: 10px;
+				top: 2px;
+			}
+			i{
+				font-style: normal;
+			}
+			.title2{
+				width: 184px;
+				height: 28px;
+				line-height: 28px;
+				font-size: 12px;
+				position: relative;
+				overflow: hidden;
+				display: block;
+				color: #c03;
+				left: 20px;
+				top: 140px;
+			}
+			.longer{
+				width: 468px;
+				height: 172px;
+				position: relative;
+				left: 220px;
+				top: -205px;
+				margin-left: 20px;
+			}
+			.longer p{
+				position: relative;
+				top: -110px;
+				font-size: 20px;
+				color: white;
+				left: 50px;
+				font-weight: 700;
+			}
+			.longer2{
+				width: 468px;
+				height: 172px;
+				position: relative;
+				left: 220px;
+				top: -205px;
+				margin-top: 20px;
+				margin-left: 20px;
+				margin-right: 20px;
+				cursor: pointer;
+			}
+			.longer2 p{
+				position: relative;
+				top: -110px;
+				font-size: 20px;
+				color: white;
+				left: 100px;
+				font-weight: 700;
+				cursor: pointer;
+			}
+			.longer3-1{
+				position: relative;
+				left: 725px;
+				top: -615px;
+			}
+			.longer3-2{
+				position: relative;
+				left: 485px;
+				top: -375px;
+			}
+			.longer4{
+				width: 224px;
+				height: 367px;
+				/*border:1px solid red ;*/
+				float: right;
+				position: relative;
+				top: -570px;
+				box-shadow:0 5px 10px rgba(0,0,0,0.1);
+				background-color: white;
+			}
+			.list{
+				position: relative;
+				left: 30px;
+				top: 20px;
+				font-size: 14px;
+			}
+			.web1{
+				background: url(../images/java.png);
+			}
+			.java{
+				position: relative;
+				left: 240px;
+				top: -208px;
+			}
+			.java2{
+				position: relative;
+				left: 240px;
+				top: -190px;
+			}
+			.java3{
+				position: relative;
+				left: 485px;
+				top: -360px;
+			}
+			.java4{
+				position: relative;
+				left: 730px;
+				top: -533px;
+			}
+			.longer4-1{
+				position: relative;
+				left: 975px;
+				top: -900px;
+			}
+			#active{
+				opacity: 1;
+			}
+			.bottom{
+				position: relative;
+				top: 60px;
+			}
+			.php{
+				position: absolute;
+				top: 0px;
+				left: 240px;
+
+			}
+			.php2{
+				position: absolute;
+				top: 0;
+				margin-left: 240px;
+			}
+			.php3{
+				position: absolute;
+				margin-top: 552px;
+				margin-left: 240px;
+			}
+			.php4{
+				position: absolute;
+				top:0;
+			}
+			.ios{
+				position: absolute;
+				margin-top: -190px;
+				margin-left: 240px;
+			}
+			.ios2{
+				position: absolute;
+				top: 0px;
+				margin-left: 240px;
+			}
+			.ios3{
+				position: absolute;
+				margin-left: 240px;
+				margin-top: 552px;
+			}
+			.ios4{
+				position: absolute;
+				top: 0;
+			}
+			.ji{
+				position: relative;
+				top: 60px;
+			}
+			.ji2{
+				position: relative;
+				top: -192px;
+				left: 480px;
+			}
+			.ji3{
+				width: 468px;
+				height: 172px;
+				position: absolute;
+				top: 190px;
+				left: 240px;
+				background-color: white;
+			}
+			.ji4{
+				width: 468px;
+				height: 172px;
+				/*border:1px solid red;*/
+				position: absolute;
+				top: 190px;
+				left: 720px;
+				background-color: white;
+			}
+			.ji3-1{
+				float: left;
+   				 width: 82px;
+   				 margin: 32px;
+   				 height: 60px;
+    			font-size: 20px;
+   				 color: #07111b;
+    			line-height: 20px;
+   				font-weight: 700;
+			}
+			.h32{
+				height: 19px;
+				font-size: 16px;
+			}
+
+			.h32:hover{
+				color: red;
+			}
+			.foot{
+				width: 100%;
+				height: 
+				background-color: white;
+				/*border:1px solid red;*/
+			}
+			.zi{
+				width: 400px;
+				position: absolute;
+				font-size: 20px;
+    			color: #fff;
+   				font-weight: 700;
+    			text-align: center;
+    			top: 50px;
+    			left: 30px;
+    			z-index: 3;
+    			cursor: pointer;
+			}
+			.zi2{
+				width: 400px;
+				position: absolute;
+				font-size: 20px;
+    			color: #fff;
+   				font-weight: 700;
+    			text-align: center;
+    			top:225px;
+    			left: 30px;
+    			z-index: 3;
+    			cursor: pointer;
+
+			}
+			.IT{font-size: 14px;
+				 line-height: 12px;
+   				 color: #fff;
+   				 margin-left: 20px;
+   				 margin-top: 24px;
+   				 position: relative;
+   				 top: 10px;
+			}
+			.qq{
+				background: url(../images/shoujileft.png);
+			}
+			.zzz{
+				position: absolute;
+				top: -15px;
+				cursor: pointer;
+			}
+			.zzz2{
+				position: absolute;
+				top: 159px;
+				cursor: pointer;
+			}
+			.q1{
+				background: url(../images/ios.png);
+	
+			}
+			.q3{
+				background: url(../images/Android.png);
+			}
+			.q4{
+				background: url(../images/PHP.png);
+			}
+			.tt{
+				color:#069;;
+			}
+			.tt2{
+				color: #4343cc;
+			}
+			.tt3{
+				color: #063;
+			}
+			.tt4{
+				color: #099;
+			}
+			.tt5{
+				    border: 1px solid #fff;
+				    border-radius: 3px;
+				    height: 34px;
+				    font-size: 14px;
+				    color: #fff;
+				    line-height: 34px;
+				    text-align: center;
+				    margin: auto;
+				    margin-bottom: 8px;
+				    width: 184px;
+				    position: relative;
+				    top: 130px;
+				    cursor: pointer;
+				}
+			.s{
+				position: relative;
+				top: 30px;
+				cursor: pointer;
+			}
+			.xinshou{
+				width: 300px;
+				position: absolute;
+				font-size: 20px;
+    			color: #fff;
+   				 font-weight: 700;
+   				 text-align: center;
+    			line-height: 172px;
+    			left: 200px;
+    			cursor: pointer;
+
+
+			}
+			.gong{
+				width: 300px;
+				position: absolute;
+				font-size: 20px;
+    			color: #fff;
+   				 font-weight: 700;
+   				 text-align: center;
+    			line-height: 172px;
+    			left: 100px;
+    			top: 20px;
+    			cursor: pointer;
+			}
+			.line{
+				    background-color: #fff;
+				    opacity: .502;
+				    height: 1px;
+				    width: 206px;
+				    margin: auto;
+				    margin-top: 20px;
+				    margin-bottom: 20px;
+				    position: absolute;
+				    top:140px;
+				    left: 150px;
+			}
+			.gong2{
+				width: 500px;
+				position: absolute;
+				font-size: 20px;
+    			color: #fff;
+   				 font-weight: 700;
+   				 text-align: center;
+    			line-height: 172px;
+    			left:10px;
+    			top: 110px;
+    			cursor: pointer;
+			}
+			.gong3{
+				width: 300px;
+				position: absolute;
+				font-size: 20px;
+    			color: #fff;
+   				 font-weight: 700;
+   				 text-align: center;
+    			line-height: 172px;
+    			left: 200px;
+    			top:-20px;
+    			cursor: pointer;
+			}
+			.gong4{
+				width: 300px;
+				position: absolute;
+				font-size: 20px;
+				color: #fff;
+				font-weight: 700px;
+				top: 80px;
+				left: 140px;
+				z-index: 1;
+				cursor: pointer;
+
+			}
+			.footer{
+				width: 100%;
+				height: 193px;
+				position: relative;
+				top:2740px;
+
+			}
+			.container{
+				width: 1200px;
+				height: 193px;
+				margin: 0 auto;
+			}
+			.footer-wrap{
+				width: 1200px;
+				height: 62px;
+				margin: 0 auto;
+			}
+			.footer-sns{
+				padding-top: 30px;
+    			text-align: center;
+			}
+			.weibo{
+				display: inline-block;
+			    height: 32px;
+			    width: 32px;
+			    vertical-align: middle;
+			    background: url(../images/idx-btm.png);
+			    background-repeat: no-repeat;
+			   	margin: 0 9px;
+		    background-position: 0 -221px;
+
+			}
+			.weibo:hover{
+				
+		    background-position: 0 -262px;
+
+			}
+			.weixin{
+				display: inline-block;
+			    height: 32px;
+			    width: 32px;
+			    vertical-align: middle;
+			    background: url(../images/idx-btm.png);
+			    background-repeat: no-repeat;
+			   	margin: 0 9px;
+				position: relative;
+   				 background-position: -52px -221px;
+			}
+			.weixin:hover{
+				background-position: -52px -262px;
+
+			}
+			.tengxun{
+				display: inline-block;
+			    height: 32px;
+			    width: 32px;
+			    vertical-align: middle;
+			    background: url(../images/idx-btm.png);
+			    background-repeat: no-repeat;
+			   	margin: 0 9px;
+			   	background-position: -104px -221px;
+			}
+			.tengxun:hover{
+			background-position: -104px -262px;
+			}
+			.kongjian{
+				display: inline-block;
+			    height: 32px;
+			    width: 32px;
+			    vertical-align: middle;
+			    background: url(../images/idx-btm.png);
+			    background-repeat: no-repeat;
+			   	margin: 0 9px;
+				background-position: -156px -221px;
+			}
+			.kongjian:hover{
+				background-position: -156px -262px;
+			}
+			.footer-link{
+				padding: 25px 0;
+			    margin: 0 auto;
+			    text-align: center;
+			    border-bottom: 1px solid #d0d6d9;
+			}
+			.footer-link a{
+				margin: 0 10px;
+    			color: #99a1a6;
+
+			}
+			.footer-link a:hover{
+				color: red;
+			}
+			.aaa{
+				position: absolute;
+			    display: none;
+			    width: 176px;
+			    height: 210px;
+			    background: url(../images/idx-btm.png);
+			    left: -72px;
+			    bottom: 40px;
+			}
+			.weixin:hover .aaa{
+				display:block;
+			}
+			.list a:hover{
+				color: red;
+
+			}
+			.footer-copyright{
+				padding: 20px 0 25px;
+			    text-align: center;
+			    color: #b4bbbf;
+			    font-size: 12px;
+    			line-height: 14px;
+    			position: relative;
+    			margin-top: -15px;
+			}
+
+
+
+
